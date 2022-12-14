@@ -10,3 +10,9 @@ var sortArrayByParity = function(nums){
     
 };
 sortArrayByParity([3,1,2,4])
+
+function sortArr(arr){
+    let newArr = arr.sort((a,b) => a-b)
+    console.log(newArr)
+}
+sortArr([2,3,4,6,7,8,9,5])
