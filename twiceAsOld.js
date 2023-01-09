@@ -8,7 +8,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
     let son = sonYearsOld * 2
     let dad = dadYearsOld - son
     return Math.abs(dad)
-  
+
 }
 
 console.log(twiceAsOld(36,7))
