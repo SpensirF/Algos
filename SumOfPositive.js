@@ -10,3 +10,4 @@ function positiveSum(arr) {
     // if number is positive += sum 
     // then return sum
 }
+console.log(positiveSum([9, 3, 7, 3]));
