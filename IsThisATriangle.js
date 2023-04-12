@@ -3,10 +3,10 @@
 
 
 function isTriangle(a,b,c){
-   if(a || b || c === 0){
-       return false;
-    }
+   
+        return a + b > c && a + c > b && c + b > a ; 
+    
    
 }
 
-isTriangle(1,2,2) //true
+console.log(isTriangle(1,2,2)) 
